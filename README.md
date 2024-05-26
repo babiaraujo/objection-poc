@@ -14,25 +14,15 @@ Este projeto é uma Prova de Conceito (PoC) que utiliza o Objection.js, um ORM (
 
 ## Configuração do Projeto
 
-### Passo 1: Inicializar o Projeto
-
-1. Crie uma nova pasta para o projeto e inicialize o npm:
-
-```bash
-mkdir objection-poc
-cd objection-poc
-npm init -y
-```
-
-### Passo 2: Instalar Dependências
+### Instalar Dependências
 
 Instale as dependências necessárias:
 
 ```bash
-npm install express objection knex sqlite3 body-parser
+npm install
 ```
 
-### Passo 3: Configurar o Banco de Dados
+### Configurar o Banco de Dados
 
 Crie e execute as migrações para configurar o banco de dados:
 
