@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const knex = require('./db');
@@ -9,7 +8,6 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-// Rotas CRUD
 app.get('/users', async (req, res) => {
   try {
     const users = await User.query();

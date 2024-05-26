@@ -1,4 +1,3 @@
-// knexfile.js
 module.exports = {
     development: {
       client: 'sqlite3',
