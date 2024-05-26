@@ -1,11 +1,11 @@
 const { Model } = require('objection');
 
 class User extends Model {
-  static get users() {
-    return 'users';
+  static get tableName() {
+    return 'users'; 
   }
 
-  static get class() {
+  static get relationMappings() {
     return {};
   }
 }
