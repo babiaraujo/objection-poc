@@ -59,8 +59,8 @@ npm start
 
 ```json
 {
-  "name": "John Doe",
-  "email": "john.doe@example.com"
+  "name": "Babi",
+  "email": "babi@gmail.com"
 }
 ```
 
@@ -71,8 +71,8 @@ npm start
 ```json
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "john.doe@example.com"
+  "name": "Babi",
+  "email": "babi@gmail.com"
 }
 ```
 
@@ -88,8 +88,8 @@ npm start
 [
   {
     "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "Babi",
+    "email": "babi@gmail.com"
   }
 ]
 ```
@@ -105,8 +105,8 @@ npm start
 ```json
 {
   "id": 1,
-  "name": "John Doe",
-  "email": "john.doe@example.com"
+  "name": "Babi",
+  "email": "babi@gmail.com"
 }
 ```
 
@@ -140,7 +140,7 @@ npm start
 {
   "id": 1,
   "name": "Jane Doe",
-  "email": "john.doe@example.com"
+  "email": "babi@gmail.com"
 }
 ```
 
@@ -172,4 +172,4 @@ npm start
 
 ## Conclusão
 
-Esta PoC demonstra como usar o Objection.js com Node.js e Express para criar uma API RESTful básica. Sinta-se à vontade para expandir este exemplo com mais funcionalidades e relacionamentos entre modelos.
+Sinta-se a vontade para expandir este exemplo com mais funcionalidades e relacionamentos entre models.
